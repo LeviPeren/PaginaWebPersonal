@@ -1,0 +1,148 @@
+/* General Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #121212; /* Fondo oscuro */
+    color: #ffffff; /* Texto blanco */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+.bienvenidos {
+    background-color: #1c1c1c; /* Fondo de la sección superior */
+    padding: 60px 0; /* Espaciado vertical */
+}
+
+.encabezado {
+    background-color: #000000; /* Fondo del encabezado */
+    padding: 15px 0; /* Espaciado del encabezado */
+}
+
+.logo img {
+    max-width: 150px; /* Ajusta el tamaño del logo */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff; /* Color del enlace */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff5722; /* Color del enlace al pasar el mouse */
+}
+
+/* Encabezado de página */
+.texto-encabezado {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.texto-encabezado h1 {
+    font-size: 2.5rem; /* Tamaño de la fuente del encabezado */
+    margin-bottom: 15px;
+}
+
+.texto-encabezado p {
+    font-size: 1.2rem; /* Tamaño de la fuente del párrafo */
+}
+
+/* Botón principal */
+.btn-primary {
+    background-color: #ff5722; /* Color del botón */
+    border: none;
+    color: #ffffff; /* Texto del botón */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #e64a19; /* Color al pasar el mouse */
+}
+
+/* Sección Agencia */
+.agencia {
+    padding: 60px 0; /* Espaciado vertical */
+}
+
+.agencia h2 {
+    color: #ff5722; /* Color del subtítulo */
+}
+
+/* Sección ¿Por qué somos tu mejor elección? */
+.tu-mejor-eleccion {
+    padding: 60px 0; /* Espaciado vertical */
+}
+
+.tu-mejor-eleccion h2 {
+    color: #ff5722; /* Color del subtítulo */
+}
+
+.tu-mejor-eleccion ul {
+    padding: 0;
+    list-style: none;
+}
+
+/* Sección Servicios */
+.servicios {
+    padding: 60px 0; /* Espaciado vertical */
+}
+
+.servicios h2 {
+    color: #ff5722; /* Color del subtítulo */
+}
+
+.servicios article {
+    text-align: center; /* Centrar texto en servicios */
+}
+
+.servicios h3 a {
+    color: #ff5722; /* Color del enlace en servicios */
+    text-decoration: none;
+}
+
+.servicios h3 a:hover {
+    text-decoration: underline; /* Subrayar al pasar el mouse */
+}
+
+/* Últimos proyectos */
+.ultimos-proyectos {
+    padding: 60px 0; /* Espaciado vertical */
+}
+
+.ultimos-proyectos h2 {
+    color: #ff5722; /* Color del subtítulo */
+}
+
+/* Carousel */
+.owl-carousel .item {
+    text-align: center;
+}
+
+.owl-carousel img {
+    max-width: 100%; /* Ajustar imágenes al contenedor */
+    height: auto; /* Mantener la relación de aspecto */
+}
+
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+    .encabezado {
+        padding: 10px; /* Menos espaciado en pantallas pequeñas */
+    }
+
+    .texto-encabezado h1 {
+        font-size: 2rem; /* Tamaño más pequeño en móviles */
+    }
+}

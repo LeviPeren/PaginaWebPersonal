@@ -1,0 +1,252 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Sección Últimos Proyectos */
+.ultimos-proyectos {
+    background-color: #ffffff;
+    padding: 60px 0;
+}
+
+.ultimos-proyectos h2 {
+    font-size: 2.5em;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.ultimos-proyectos .item {
+    position: relative;
+    padding: 15px;
+}
+
+.ultimos-proyectos img {
+    width: 130%; /* Aumenta el tamaño de las imágenes */
+    border-radius: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ultimos-proyectos img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.ultimos-proyectos h4 {
+    font-size: 1.2em;
+    margin-top: 15px;
+    color: #555;
+    text-align: center;
+}
+
+/* Estilos para los botones de navegación */
+.owl-carousel .owl-nav button {
+    background: transparent;
+    border: none;
+    font-size: 2em; 
+    color: #333;
+    transition: color 0.3s ease;
+    outline: none;
+}
+
+.owl-carousel .owl-nav button:hover {
+    color: #555;
+}
+
+
+/* AQUI VA LO DE: login */
+
+/* Estilos generales */
+body.login-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin: 10px 0 5px;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input[type="submit"].btn-login {
+    width: 100%;
+    padding: 10px;
+    background-color: #5a67d8;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"].btn-login:hover {
+    background-color: #434190;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+}
+
+a.btn-register {
+    color: #5a67d8;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a.btn-register:hover {
+    color: #434190;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+/* AQUI VA LO DE: Registro de usuario */
+/* Estilos generales */
+body.register-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+}
+
+.register-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+.register-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin: 10px 0 5px;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input[type="submit"].btn-submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #5a67d8;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"].btn-submit:hover {
+    background-color: #434190;
+}
+
+a.btn-cancel {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #e53e3e;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+a.btn-cancel:hover {
+    background-color: #c53030;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+
+
+/* AQUI VA LO DE: solo cerrar sesión de admin.php */
+/* Contenedor para el botón de cerrar sesión */
+.logout-container {
+    text-align: right;
+    margin-top: 10px;
+}
+
+/* Estilo para el botón de cerrar sesión */
+.btn-logout {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #e53e3e; /* Color de fondo del botón */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-logout:hover {
+    background-color: #c53030; /* Color de fondo en hover */
+}
